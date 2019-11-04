@@ -11,6 +11,8 @@ public class App
     public App() {}
 
     public static void main(String[] args) {
+    	int i = 100;
+    	i++;
         System.out.println(new App().getMessage());
     }
 
